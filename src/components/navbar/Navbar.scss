@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     transition: all 1s ease;
+    z-index: 3;
 
 
     .wrapper {
@@ -80,7 +81,7 @@
     }
 
     &.active {
-        background-color: black!important;
+        background: black!important;
         color: whitesmoke;
         
 
