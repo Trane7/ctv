@@ -4,7 +4,7 @@ import '../catalog/catalog.scss';
 
 function Catalog() {            /* This is the catalog itself */
   return (
-    <div className='catalog'>
+    <div className='catalog' id='catalog'>
         <div className='container'>
             <div className='content'>
             <h1>CATALOG</h1>
