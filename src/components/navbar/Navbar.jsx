@@ -7,12 +7,14 @@ export default function Navbar() {
       <div className="wrapper">
         <div className="left">
           <a href="#hero" className="logo">CTV <span>Radio</span></a>
-          <div className="itemContainer">
-            
+        </div>
+        <div className="right">
+          <div className="hamburger">
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
           </div>
         </div>
-        <h1>Radio</h1>
-        <div className="right">This is right</div>
       </div>
     </div>
   );
