@@ -3,16 +3,16 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import "./app.scss";
+import { useState } from "react";
 
 
 
 function App() {
-  // const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
-      {/* <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
-      <Navbar />
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      {/* <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
       <div className="sections">
         <Hero />
         <Catalog />
