@@ -1,5 +1,5 @@
 import "./navbar.scss";
-
+import QueueIcon from '@mui/icons-material/Queue';
 
 export default function Navbar() {
   return (
@@ -7,6 +7,10 @@ export default function Navbar() {
       <div className="wrapper">
         <div className="left">
           <a href="#hero" className="logo">CTV <span>Radio</span></a>
+          <div className="itemContainer">
+            <QueueIcon className="icon" />
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfv8BOmk0Vfwtot5YTauNWYUWdbPkqqxna4D5atp3Q8ff-nUA/viewform">Submit A Song</a>
+          </div>
         </div>
         <div className="right">
           <div className="hamburger">
