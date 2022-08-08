@@ -15,7 +15,7 @@
             margin-top: 45px;
             
 
-            img{
+            img{   // CTV Radio Logo
                 height: 90%;
                 margin-left: 45px;
                 margin-top: 30px;
@@ -35,9 +35,15 @@
             flex-direction: column;
             justify-content: center;
 
+            .tiktok{
+                margin-bottom: 100px;
+                border-radius: 35%;
+
+            }
+
 
             button  {
-                font-size: 70px;
+                font-size: 40px;
                 font-family: 'Rouge Script', cursive;
                 background-color: transparent;
                 border: 1px solid goldenrod;
@@ -45,16 +51,17 @@
                 border-radius: 5%;
                 cursor: pointer;
                 margin-bottom: 50px;
-                background-color: transparent;
+                margin-left: 700px;
+                background-color: goldenrod;
                 text-decoration: none;
-                color: goldenrod;
+                color: rgb(133, 4, 4);
             }
         }
 
         a{
             position: absolute;
             bottom: 10px;
-            left: 30%;
+            left: 2%;
             
 
             img {
