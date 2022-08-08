@@ -1,4 +1,11 @@
 .footer {
     background: linear-gradient(90deg, rgb(26, 23, 23) 3%, rgb(151, 1, 1) 100%);
     color: whitesmoke;
+
+
+    @mixin  mobile {
+        flex: 1;
+        overflow: hidden;
+    }
 }
+
